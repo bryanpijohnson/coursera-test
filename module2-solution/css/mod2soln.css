@@ -2,30 +2,73 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 h1 {
-  margin: 10px;
+  font-size: 175%;
+  margin-bottom: 10px;
   text-align: center;
 }
 
-div.box {
-  border: 1px solid black;
+.box {
+  border: 1px black solid;
   background-color: gray;
-  margin-bottom: 5px;
+  margin: 10px;
   position: relative;
-  clear: both;
 }
 
-div.subbox{
-  border: 1px solid black;
-  text-align: center;
-  background-color: blue;
-  margin: 0px;
+p {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: auto;
+  padding: 10px 20px 10px 20px;
   color: white;
-  padding: 5px 25px 5px 25px;
+  font-size: 125%;
   font-weight: bold;
   float: right;
 }
+
+.p1 {
+  background-color: red;
+}
+
+.p2 {
+  background-color: green;
+}
+
+.p3 {
+  background-color: blue;
+}
+
 section {
   padding: 10px;
   clear: both;
+  height: 165px;
+  overflow: auto;
 }
+
+/* Simple Responsive Framework */
+.row {
+  width: 100%;
+}
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Tablet devices only *********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-md-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+/********** End Media Devices **********/
