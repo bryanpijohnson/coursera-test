@@ -26,6 +26,7 @@ p {
   font-size: 125%;
   font-weight: bold;
   float: right;
+  border-radius: 10px;
 }
 
 .p1 {
