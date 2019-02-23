@@ -42,13 +42,8 @@ p {
 section {
   padding: 10px;
   clear: both;
-  height: 165px;
   overflow: auto;
-}
-
-/* Simple Responsive Framework */
-.row {
-  width: 100%;
+  height: 165px;
 }
 
 /********** Desktop devices only **********/
