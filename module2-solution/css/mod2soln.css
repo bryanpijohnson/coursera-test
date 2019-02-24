@@ -20,7 +20,8 @@ h1 {
 p {
   border-left: 1px solid black;
   border-bottom: 1px solid black;
-  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 0px;
   padding: 10px 20px 10px 20px;
   color: white;
   font-size: 125%;
